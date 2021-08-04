@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'CrimsonRegular';
+    src: url('/arquivos/CrimsonText-Regular.eot.css');
+    src: url('/arquivos/CrimsonText-Regular.eot.css') format('embedded-opentype'),
+        url('/arquivos/CrimsonText-Regular.woff.css') format('woff'),
+        url('/arquivos/CrimsonText-Regular.ttf.css') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CrimsonBold';
+    src: url('/arquivos/CrimsonText-Bold.eot.css');
+    src: url('/arquivos/CrimsonText-Bold.eot.css') format('embedded-opentype'),
+        url('/arquivos/CrimsonText-Bold.woff.css') format('woff'),
+        url('/arquivos/CrimsonText-Bold.ttf.css') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraSansRegular';
+    src: url('/arquivos/FiraSans-Regular.eot.css');
+    src: url('/arquivos/FiraSans-Regular.eot.css') format('embedded-opentype'),
+        url('/arquivos/FiraSans-Regular.woff.css') format('woff'),
+        url('/arquivos/FiraSans-Regular.ttf.css') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FiraSansLight';
+    src: url('/arquivos/FiraSans-Light.eot.css');
+    src: url('/arquivos/FiraSans-Light.eot.css') format('embedded-opentype'),
+        url('/arquivos/FiraSans-Light.woff.css') format('woff'),
+        url('/arquivos/FiraSans-Light.ttf.css') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
