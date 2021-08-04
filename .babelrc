@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    [
+      "@babel/transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ]
+  //"plugins": ["@babel/plugin-proposal-export-default-from"]
+}
