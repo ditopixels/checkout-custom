@@ -1,0 +1,61 @@
+.breadcrumb{
+    background-color: $white;;
+    margin-bottom: 25px;
+    border-bottom: 1px solid $grayLight;
+    display: flex;
+    justify-content: center;
+    padding-right: 0;
+    padding-left: 0;
+    >div{
+        padding: .5rem 1.5rem .5rem 1.75rem;
+        text-transform: uppercase;
+        position: relative;
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        opacity: .5;
+        user-select: none;
+    }
+    >div::after{
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        border: 1px solid $gray;
+        left: 0;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    &-profile::after{
+        content: "1";
+    }
+    &-shipping::after{
+        content: "2";
+    }
+    &-payment::after{
+        content: "3";
+    }
+}
+.orderform-template-holder.profile .breadcrumb-profile{
+    opacity: 1;
+}
+.orderform-template-holder.shipping {
+    .breadcrumb-profile{
+        opacity: 1;
+    }
+    .breadcrumb-shipping{
+        opacity: 1;
+    }
+}
+.orderform-template-holder.payment {
+    .breadcrumb-profile{
+        opacity: 1;
+    }
+    .breadcrumb-shipping{
+        opacity: 1;
+    }
+    .breadcrumb-payment{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,53 @@
+#client-profile-data,
+#shipping-data,
+#payment-data{
+     border: 1px solid $grayLight !important;
+     box-shadow: none;
+}
+.vtex-omnishipping-1-x-shippingSectionTitle{
+    color: $black !important;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.ship-complement,
+.ship-reference,
+.ship-neighborhood,
+.ship-state,
+.ship-city,
+.ship-receiverName,
+.ship-number,
+.ship-street label{
+    font-size: 12px !important;
+}
+
+.orderform-template-holder>div::before{
+    order: 1;
+}
+@media screen and (min-width:640px) {
+    #client-profile-data{
+        width: 50% !important;
+        float: left;
+    }
+    div#shipping-data.shipping-data{
+        width: 48% !important;
+        margin-left: 2%;
+        margin-bottom: 0 !important;
+    }
+    
+    div#payment-data.payment-data{
+        width: 48% !important;
+        float: right;
+        margin-left: 52%;
+        margin-top: 15px;
+    }
+    
+    .orderform-template-holder.payment #payment-data{
+        width: 100% !important;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .orderform-template-holder.profile #payment-data{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}
