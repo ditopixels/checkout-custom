@@ -7,7 +7,7 @@
     padding-right: 0;
     padding-left: 0;
     >div{
-        padding: .5rem 1.5rem;
+        padding: .5rem 1.5rem .5rem 1.75rem;
         text-transform: uppercase;
         position: relative;
         display: flex;
@@ -20,7 +20,7 @@
         width: 1.2rem;
         height: 1.2rem;
         border-radius: 50%;
-        border: 1px solid $grayLight;
+        border: 1px solid $gray;
         left: 0;
         position: absolute;
         justify-content: center;

@@ -1,7 +1,8 @@
 #client-profile-data,
 #shipping-data,
 #payment-data{
-     box-shadow: 0px 0px 10px #0000004f;
+     border: 1px solid $grayLight !important;
+     box-shadow: none;
 }
 .vtex-omnishipping-1-x-shippingSectionTitle{
     color: $black !important;
