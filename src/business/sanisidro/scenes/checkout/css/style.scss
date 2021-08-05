@@ -21,3 +21,62 @@ body{
 
 
 @font-face{font-family:'CrimsonRegular';src:url("/arquivos/CrimsonText-Regular.eot.css");src:url("/arquivos/CrimsonText-Regular.eot.css") format("embedded-opentype"),url("/arquivos/CrimsonText-Regular.woff.css") format("woff"),url("/arquivos/CrimsonText-Regular.ttf.css") format("truetype");font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:'CrimsonBold';src:url("/arquivos/CrimsonText-Bold.eot.css");src:url("/arquivos/CrimsonText-Bold.eot.css") format("embedded-opentype"),url("/arquivos/CrimsonText-Bold.woff.css") format("woff"),url("/arquivos/CrimsonText-Bold.ttf.css") format("truetype");font-style:normal;font-display:swap}@font-face{font-family:'FiraSansRegular';src:url("/arquivos/FiraSans-Regular.eot.css");src:url("/arquivos/FiraSans-Regular.eot.css") format("embedded-opentype"),url("/arquivos/FiraSans-Regular.woff.css") format("woff"),url("/arquivos/FiraSans-Regular.ttf.css") format("truetype");font-weight:normal;font-style:normal;font-display:swap}@font-face{font-family:'FiraSansLight';src:url("/arquivos/FiraSans-Light.eot.css");src:url("/arquivos/FiraSans-Light.eot.css") format("embedded-opentype"),url("/arquivos/FiraSans-Light.woff.css") format("woff"),url("/arquivos/FiraSans-Light.ttf.css") format("truetype");font-weight:normal;font-style:normal;font-display:swap}.header-check{width:95%;height:45px;display:flex;position:relative;justify-content:flex-end;padding:15px 35px;border-bottom:1px solid #f1f1f1;box-shadow:0px 0px 10px rgba(0,0,0,0.425);margin-bottom:50px}.img-logo{position:absolute;width:95%;display:flex;justify-content:center}.logo-check{width:155px;height:45px}.text-check{display:flex;align-items:center}.txt-header{font-size:12px;color:#424242;font-weight:300}body{background:#fff !important}#client-profile-data,#shipping-data,#payment-data{box-shadow:0px 0px 10px #0000004f}.vtex-omnishipping-1-x-shippingSectionTitle{color:#000 !important;font-size:12px !important;font-weight:600}.ship-complement,.ship-reference,.ship-neighborhood,.ship-state,.ship-city,.ship-receiverName,.ship-number,.ship-street label{font-size:12px !important}.orderform-template-holder>div::before{order:1}@media screen and (min-width: 640px){#client-profile-data{width:50% !important;float:left}div#shipping-data.shipping-data{width:48% !important;margin-left:2%;margin-bottom:0 !important}div#payment-data.payment-data{width:48% !important;float:right;margin-left:52%;margin-top:15px}.orderform-template-holder.payment #payment-data{width:100% !important;margin-left:0;margin-top:15px}.orderform-template-holder.profile #payment-data{margin-left:0;margin-top:15px}}.breadcrumb{background-color:#fff;margin-bottom:25px;border-bottom:1px solid #b4b0b0;display:flex;justify-content:center;padding-right:0;padding-left:0}.breadcrumb>div{padding:.5rem 1.5rem;text-transform:uppercase;position:relative;display:flex;align-items:center;font-size:13px;opacity:.5;user-select:none}.breadcrumb>div::after{width:1.2rem;height:1.2rem;border-radius:50%;border:1px solid #b4b0b0;left:0;position:absolute;justify-content:center;align-items:center;display:flex}.breadcrumb-profile::after{content:"1"}.breadcrumb-shipping::after{content:"2"}.breadcrumb-payment::after{content:"3"}.orderform-template-holder.profile .breadcrumb-profile{opacity:1}.orderform-template-holder.shipping .breadcrumb-profile{opacity:1}.orderform-template-holder.shipping .breadcrumb-shipping{opacity:1}.orderform-template-holder.payment .breadcrumb-profile{opacity:1}.orderform-template-holder.payment .breadcrumb-shipping{opacity:1}.orderform-template-holder.payment .breadcrumb-payment{opacity:1}a{color:#404040 !important;text-decoration:none}li{list-style:none}body{background:#f7f7f7} #btn-go-to-payment{ margin-left: 0; margin-right: 0; width: 100%; margin-top: 20px; background:#018dbb !important; border:none !important; } .shp-lean-option{ background:#f2f2f2 !important; } .vtex-omnishipping-1-x-address .text label{ position: relative; } .vtex-omnishipping-1-x-address .text label::after{ position: absolute; content: '*'; color: #999999; top:0; } .accordion-toggle{ color:#008CBE !important } .client-profile-email{ margin-bottom: 0 !important; color:#5D5D5D !important; } .client-profile-summary{ color:#5D5D5D !important; } .vtex-omnishipping-1-x-svg{ fill:#008CBE; } .client-profile-data .accordion-toggle > span::before{ content: 'A'; /*background: url('../image/profile-icon.svg');*/ width: 29px; height: 29px; object-fit: contain; left: 0; border:none; background: transparent; color:none; } .go-to-cart-button{ display:none; } #ship-postalCode{ max-width: 30%; } .back-to-address-list{ border: 1px solid #008cbe; background: #008cbe; color:#fff; } #cart-to-orderform{ background:#008cbe; color:#fff !important; border:none !important; } #cart-coupon-add{ background:#008cbe; color:#fff !important; border:none !important; } .btn-link{ border: 1px solid #008cbe !important; } .input-small{ max-width:30% !important; } .shipping-data .accordion-toggle::before{ content: 'B'; /*background: url('../image/profile-icon.svg');*/ width: 29px; height: 29px; object-fit: contain; left: 0; border:none; color:none !important; } .monetary{ color:#000 !important; font-size:17px !important; } .info{ font-size:17px !important; text-transform: uppercase; } .cart-template{ background:#fff !important; } .btn-success{ background:#008CBE !important; color:#fff !important; border:none !important; } 
+
+.payment-data .accordion-toggle > span:not(.payment-edit-link)::before{
+  content:'C' !important;
+  background: #1a73e8 !important;
+  border: none !important;
+color:#fff !important;
+}
+
+.orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-option:hover, .orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-leanShippingOptionActive, .orderform-template-holder .step.shipping-data .vtex-omnishipping-1-x-leanShippingOption{
+background:#f2f2f2 !important;
+}
+
+.orderform-template .custom-cart-template-wrap{
+  box-shadow: 0px 0px 10px #0000004f;
+}
+
+.orderform-template .cart-template.mini-cart h2{
+  text-align: center !important;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.input-block-level{
+font-size: 14px !important;
+max-width: 75% !important;
+margin-right: 20px !important;
+}
+
+.client-pre-email .emailInfo > h3{
+color:#000 !important;
+}
+
+.emailInfo{
+text-align: center !important;
+}
+
+.client-pre-email .client-email.input.text .btn-success{
+position:relative !important;
+bottom:0 !important;
+min-width: unset !important;
+left:40px !important;
+top: unset !important;
+height:40px !important;
+padding:0 !important;
+}
+
+.icon-lock{
+display:none;
+}
+
+.client-pre-email h3.client-pre-email-h span::before{
+  content:'' !important;
+  background:transparent !important;
+  border: none !important;
+  display:none  !important;
+}
+
+#client-profile-data{
+  width:100% !important
+}
