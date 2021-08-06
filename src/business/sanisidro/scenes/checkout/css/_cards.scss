@@ -177,6 +177,292 @@
         }
     }
 }
+#client-profile-data{
+    .step.accordion-group.client-profile-data.filled,
+    .step.accordion-group.client-profile-data.active{
+        padding: 18px 22px;
+        margin-bottom: 0px !important;
+        .accordion-heading{
+            .accordion-toggle.collapsed,
+            .accordion-toggle.collapsed.accordion-toggle-active{
+                span{
+                    font-size: 0px !important;
+                    position: relative;
+                    width: 32%;
+                    display: flex;
+                    align-items: center;
+                }
+                span::before{
+                    content: "";
+                    background: url(https://sanisidrolonasar.vtexassets.com/assets/vtex/assets-builder/sanisidrolonasar.sanisidrolonasar-site-vtex/0.2.1/svg/profile-icon___f246401f4581869e17dc4db45309b381.svg);
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: 37px;
+                    height: 37px;
+                }
+                span::after{
+                    content: "Datos personales";
+                    position: absolute;
+                    font-size: 16px;
+                    right: 0;
+                    font-weight: 500;
+                    color: #008CBE;
+                }
+            }
+        }
+        .accordion-body.collapse.in{
+            .accordion-inner{
+                .box-step{
+                    .form-step.box-info{
+                        margin: 0px;
+                        .client-profile-email{
+                            .email{
+                                font-size: 13px;
+                                font-weight: 300;
+                                color: #5D5D5D;
+                            }
+                        }
+                        .client-profile-summary{
+                            margin-top: 5px;
+                            display: flex;
+                            gap: 5px;
+                            flex-direction: column;
+                            br{
+                                display: none;
+                            }
+                        }
+                    }
+                    form{
+                        padding-top: 10px !important;
+                        div{
+                            .row-fluid{
+                                .box-client-info-pf{
+                                    .client-notice.notice{
+                                        font-size: 13px;
+                                        color: #5D5D5D;
+                                        margin-bottom: 15px !important;
+                                    }
+                                    .client-email.input.text.required{
+                                        display: flex;
+                                        margin-bottom: 0px;
+                                        flex-direction: column;
+                                        label{
+                                            width: 6%;
+                                            position: relative;
+                                            font-size: 0px;
+                                            opacity: 0.6;
+                                        }
+                                        label::before{
+                                            content: "Mail";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            left: 0px;
+                                        }
+                                        label::after{
+                                            content: "*";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            right: 0px;
+                                        }
+                                        input{
+                                            border: 0.5px solid #1A1A1A;
+                                            padding: 12px 14px;
+                                            font-size: 13px;
+                                            color: #9B9B9B;
+                                        }
+                                    }
+                                    .client-first-name.input.pull-left.text.required{
+                                        margin: 14px 14px 14px 0px;
+                                        width: calc(50% - 14px) !important;
+                                        label{
+                                            width: 20%;
+                                            margin: 0px;
+                                            margin-bottom: 5px;
+                                            position: relative;
+                                            font-size: 0px;
+                                            opacity: 0.6;
+                                        }
+                                        label::before{
+                                            content: "Nombre";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            left: 0px;
+                                        }
+                                        label::after{
+                                            content: "*";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            right: 0px;
+                                        }
+                                        input{
+                                            width: 100%;
+                                            max-width: initial !important;
+                                            border: 0.5px solid #1A1A1A;
+                                            padding: 12px 14px;
+                                            font-size: 13px;
+                                            color: #9B9B9B;
+                                        }
+                                    }
+                                    .client-last-name.input.pull-left.text.required{
+                                        margin: 14px 0px;
+                                        label{
+                                            width: 20%;
+                                            margin: 0px;
+                                            margin-bottom: 5px;
+                                            position: relative;
+                                            font-size: 0px;
+                                            opacity: 0.6;
+                                        }
+                                        label::before{
+                                            content: "Apellido";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            left: 0px;
+                                        }
+                                        label::after{
+                                            content: "*";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            right: 0px;
+                                        }
+                                        input{
+                                            width: 100%;
+                                            max-width: initial !important;
+                                            border: 0.5px solid #1A1A1A;
+                                            padding: 12px 14px;
+                                            font-size: 13px;
+                                            color: #9B9B9B;
+                                        }
+                                    }
+                                    .client-document.input.pull-left.text.required.mask{
+                                        margin: 14px 14px 14px 0px;
+                                        width: calc(50% - 14px) !important;
+                                        label{
+                                            width: 10%;
+                                            margin: 0px;
+                                            margin-bottom: 5px;
+                                            position: relative;
+                                            font-size: 0px;
+                                            opacity: 0.6;
+                                        }
+                                        label::before{
+                                            content: "Dni";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            left: 0px;
+                                        }
+                                        label::after{
+                                            content: "*";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            right: 0px;
+                                        }
+                                        input{
+                                            width: 100%;
+                                            max-width: initial !important;
+                                            border: 0.5px solid #1A1A1A;
+                                            padding: 12px 14px;
+                                            font-size: 13px;
+                                            color: #9B9B9B;
+                                        }
+                                    }
+                                    .client-phone.pull-left.text.argentina-phone{
+                                        margin: 14px 0px;
+                                        label{
+                                            width: 20%;
+                                            margin: 0px;
+                                            margin-bottom: 5px;
+                                            position: relative;
+                                            font-size: 0px;
+                                            opacity: 0.6;
+                                        }
+                                        label::before{
+                                            content: "Teléfono";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            left: 0px;
+                                        }
+                                        label::after{
+                                            content: "*";
+                                            position: absolute;
+                                            font-size: 12px;
+                                            color: #262626;
+                                            right: 0px;
+                                        }
+                                        input{
+                                            width: 100%;
+                                            max-width: initial !important;
+                                            border: 0.5px solid #1A1A1A;
+                                            padding: 12px 14px;
+                                            font-size: 13px;
+                                            color: #9B9B9B;
+                                        }
+                                        .client-phone-mobile{
+                                            display: none;
+                                        }
+                                        .client-phone-prefix{
+                                            display: none;
+                                        }
+                                        #client-phone1{
+                                            display: none;
+                                        }
+                                        .client-phone-suffix{
+                                            display: none;
+                                        }
+                                    }
+                                }
+                                .box-client-info-pj{
+                                    padding: 0px;
+                                    .corporate-title{
+                                        margin: 0px;
+                                        font-size: 12px;
+                                        color: #1A1A1A;
+                                        text-decoration: solid;
+                                    }
+                                    ul{
+                                        margin: 0px;
+                                        li{
+                                            a{
+                                                font-size: 12px;
+                                                color: #1A1A1A;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .newsletter{
+                                .newsletter-text{
+                                    color: #262626;
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                        .submit.btn-submit-wrapper{
+                            button{
+                                width: 100%;
+                                font-weight: bold;
+                                font-size: 14px;
+                                letter-spacing: 1px;
+                                color: #FFFFFF;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 @media screen and (min-width:640px) {
     #client-profile-data{
         width: 50% !important;
