@@ -3,9 +3,9 @@
 NODE V=13.3.0
 
 <!-- Ejecutar Site[DecorCeramica] -->
-npm run dev -- --env.site=BtimePeru
+npm run dev -- --env.site=sanisidro
 
-npm run prod -- --env.site=BtimePeru
+npm run prod -- --env.site=sanisidro
 
 
 # Como Activar el QuickView
